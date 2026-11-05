@@ -19,6 +19,11 @@ class Graph{
         l=new list<int>[V];
         
     }
+
+    void addedge(int u,int v){
+        l[u].push_back(u);
+        l[v].push_back(v);
+    }
 };
 
 
